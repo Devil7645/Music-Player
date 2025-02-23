@@ -1,0 +1,46 @@
+body {
+    font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #f9e79f, #e6b8af); /* Soft gold to peach gradient */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+}
+
+.player {
+            background-color: #fff8e1; /* Light yellow background */
+            width: 400px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+            border: 2px solid #d4ac0d; /* Gold border */
+        }
+
+#cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.progress {
+    margin-top: 10px;
+}
