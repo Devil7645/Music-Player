@@ -9,9 +9,9 @@ const artistName = document.getElementById('artist-name');
 const coverImage = document.getElementById('cover');
 
 const tracks = [
-    { title: "Song 1", artist: "Artist Devil", src: "song.mp3", cover: "icon.PNG" },
-    { title: "Song 2", artist: "Artist Devil", src: "song1.mp3", cover: "icon1.JPEG" },
-    { title: "Song 3", artist: "Artist Devil", src: "song2.mp3", cover: "icon2.JPEG" }
+    { title: "Song 1", artist: "Artist Devil", src: "song.mp3", cover: "icon.png" },
+    { title: "Song 2", artist: "Artist Devil", src: "song1.mp3", cover: "icon1.jpeg" },
+    { title: "Song 3", artist: "Artist Devil", src: "song2.mp3", cover: "icon2.jpeg" }
 ];
 
 let currentTrackIndex = 0;
